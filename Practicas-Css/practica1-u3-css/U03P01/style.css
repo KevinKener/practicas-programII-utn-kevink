@@ -1,0 +1,66 @@
+:root {
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+h1{
+    font-size: 24px;
+    color: #242424;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    font-family: monospace;
+    font-size: 18px; 
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+ul {
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px blue solid;
+    max-width: 40%;
+}
+
+
+a {
+    font-weight: bold;
+}
+
+#link {
+    color: orange;
+    text-decoration: underline;
+}
+
+/*  Todos elementos dentro del elemento de lista de las provincias de Nequen y Rio
+Negro deben tener color verde (texto y link).
+*/
+.n-r {
+    color: green;
+}
+
+#link-verde {
+    color: green;
+}
+
+/* Agregar un fondo a cada ítem de la lista cuando se le pasa el cursor de mouse por
+encima. El color del fondo debe ser en RGBA, aplicando valor 0 a los parámetros de
+color y 0.1 al parámetro de opacidad */
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}

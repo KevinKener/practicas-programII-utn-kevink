@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+</head>
+<body>
+
+    <form action="" method="post">
+    <fieldset>
+        <legend>Formulario de Ingreso</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre-usuario" name="nombre-usuario"><br><br>
+        <label for="edad">Edad:</label>
+        <input type="number"  id="edad-usuario" name="edad-usuario"><br><br>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+        <input type="reset" name="borrar" id="borrar" value="Borrar">
+    </fieldset>
+    </form><br><br>
+
+    <form action="" method="post">
+        <fieldset>
+        <legend>Formulario Email</legend>
+        <label for="email">Email:</label>
+        <input type="email" id="email-usuario" name="email-usuario"><br><br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" size="25" id="contraseña-usuario" name="contraseña-usuario">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" size="25" id="contraseña-usuario2" name="contraseña-usuario2"><br><br>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+        <input type="reset" name="borrar" id="borrar" value="Borrar">
+        </fieldset>
+    </form><br><br>
+
+    
+    <form action="">
+        <fieldset>
+        <legend>Formulario con CV</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre-usuario" name="nombre-usuario"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email-usuario" name="email-usuario"><br><br>
+        <label for="documento">DNI:</label>
+        <input type="text" id="dni-usuario" name="dni-usuario"><br><br>
+        <input type="file" id="cv-usuario" name="cv-usuario"><br><br>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+        <input type="reset" name="borrar" id="borrar" value="Borrar">
+        </fieldset>
+    </form><br><br>
+    
+
+    <form action="" method="post">
+        <fieldset>
+        <legend>Formulario Check-Box</legend>
+        <label for="email">Email:</label>
+        <input type="email" id="email-usuario" name="email-usuario"><br><br>
+    
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" size="25" id="contraseña-usuario" name="contraseña-usuario"><br><br>
+    
+        <h3>Seleccione que pelicula/s le gustaria ver:</h3>
+        <input type="checkbox" name="opcion" value="1">Deadpool and Wolverine <br><br>
+        <input type="checkbox" name="opcion" value="2">Kingdom of the Planet of the Apes <br><br>
+        <input type="checkbox" name="opcion" value="3">Despicable Me 4 <br><br>
+        <input type="checkbox" name="opcion" value="4">Bad Boys: Ride or Die <br><br>
+    
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+        <input type="reset" name="borrar" id="borrar" value="Borrar">
+    </fieldset>
+    </form><br><br>
+    
+    <form action="">
+    <fieldset>
+        <legend>Seleccione que Sistema Operativo utiliza mas:</legend><br>
+            <input type="radio" name="opcion" value="1">Windows 10<br><br>
+            <input type="radio" name="opcion" value="2">Windows 11<br><br>
+            <input type="radio" name="opcion" value="3">Linux<br><br>
+            <input type="radio" name="opcion" value="4">Solaris<br><br>
+        
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <input type="reset" name="borrar" id="borrar" value="Borrar">
+    </fieldset>
+    </form><br><br>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Seleccione el/los email:</legend><br>
+            <select name="email[]" id="emails" multiple size="3">
+                <option value="1">kevinkener@gmail.com</option>
+                <option value="2">lucas@gmail.com</option>
+                <option value="3">franco@gmail.com</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" name="borrar" id="borrar" value="Borrar">
+        </fieldset>
+    </form><br><br>
+
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Residencia</legend>
+            <label for="paises_latam">Paises latinoamericanos</label>
+            <select name="paises_latam" id="paises_latam">
+                <option value="1">Argentina</option>
+                <option value="2">Brasil</option>
+                <option value="3">Uruguay</option>
+                <option value="4">Paraguay</option>
+                <option value="5">Venezuela</option>
+            </select>
+            <br><br>
+            <label for="paises_europa">Paises europeos</label>
+            <select name="paises_europa" id="paises_europa">
+                <option value="6">España</option>
+                <option value="7">Portugal</option>
+                <option value="8">Italia</option>
+                <option value="9">Francia</option>
+                <option value="10">Inglaterra</option>
+            </select>
+            <br><br>
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <input type="reset" name="borrar" id="borrar" value="Borrar">
+        </fieldset>
+    </form><br><br>
+
+   
+    <form action="" method="post">
+        <fieldset>
+            <legend>Deje su opinión</legend>
+            <label for="opinion">Opinion:</label>
+            <select name="opinion" id="opinion">
+                <option value="1">Pésimo</option>
+                <option value="2">Malo</option>
+                <option value="3">Regular</option>
+                <option value="4">Muy bueno</option>
+                <option value="5" selected>Excelente</option>
+            </select>
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <input type="reset" name="borrar" id="borrar" value="Borrar">
+        </fieldset>
+    </form><br><br>
+</body>
+</html>

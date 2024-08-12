@@ -1,0 +1,18 @@
+p {
+    background-color: #455D73;
+}
+
+h1 {
+    background-color: beige;
+}
+
+.colores {
+    color: blueviolet;
+    background-color: aqua;
+}
+
+#colores {
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
