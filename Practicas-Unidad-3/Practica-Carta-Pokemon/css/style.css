@@ -1,0 +1,70 @@
+.contenedor-2{
+    position: absolute; /* Para que el título esté encima del contenido */
+    top: 1%;/* Ajusta la distancia desde el borde superior del contenedor */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #917692; /* Color de fondo opcional para el texto */
+    padding: 0px 40px; /* Espaciado alrededor del texto */
+    border: 2px solid #000; /* Borde alrededor del título */
+    border-radius: 10px; /* Esquinas redondeadas opcionales */
+    text-align: center; /* Centra el texto dentro del div */
+    z-index: 2; /* Asegura que el título esté sobre la imagen y el contenido */
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 12px;
+}
+
+.contenedor {
+    position: relative; /* Asegura que los elementos posicionados dentro se alineen correctamente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Opcional: centra verticalmente */
+    height: 100vh; /* Ajusta la altura del contenedor si es necesario */
+}
+
+.contenido{
+    position: relative;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #7F6383;
+    width: 40%; /* Ajusta el ancho del contenedor según sea necesario */
+    padding: 10px; /* Espacio interno en el contenedor */
+    text-align: center; /* Centra el texto dentro del contenido */
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.lista-pokemon{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.estrategia{
+    background-color: #917692;
+    text-align: center;
+    border: #917692 solid 2px;
+    border-radius: 10px;
+}
+
+#gastly-imagen{
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+
+/*agrego las fuentes de pokemon solid y pokemon hollow*/
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('fonts/Pokemon Solid.woff2') format('woff2'),
+         url('fonts/Pokemon Solid.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pokemon Hollow';
+    src: url('fonts/Pokemon Hollow.woff2') format('woff2'),
+         url('fonts/Pokemon Hollow.woff') format('woff');
+}
